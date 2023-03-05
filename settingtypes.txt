@@ -1,0 +1,3 @@
+# If enabled, glazed ceramic pots filled water drop normal water source nodes (instead of spongewater) when shattered, allowing the player to (at a cost) be able to relocate water source nodes.
+wc_pottery.truewater (Can Relocate Water Sources) bool true
+

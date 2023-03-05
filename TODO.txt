@@ -1,0 +1,6 @@
+Waterpot
+	--Make waterpot fill with water if water is above instead of using the sponge soakup function
+	--Make concrete powders wash out to base material
+	--Make sponges become wet and consume the water
+Add Lidded pots and waterpots
+	--need to learn metadata and resolve issue in wc_storage first
