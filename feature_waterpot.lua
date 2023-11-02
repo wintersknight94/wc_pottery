@@ -60,6 +60,7 @@ minetest.register_node(modname .. ":pottery_waterpot_glazed", {
 		waterpot = 1,
 		scaling_time = 200,
 		stack_as_node = 1,
+		storebox_sealed_always = 1,
 	},
 	stack_max = 1,
 	paramtype = "light",

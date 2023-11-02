@@ -67,7 +67,8 @@ minetest.register_node(modname .. ":pottery_claypot", {
 		storebox = 1,
 		totable = 1,
 		scaling_time = 150,
-		ceramic = 2
+		ceramic = 2,
+		storebox_sealed = 1,
 	},
 	paramtype = "light",
 	sounds = nodecore.sounds("nc_optics_glassy"),
@@ -89,7 +90,8 @@ minetest.register_node(modname .. ":pottery_claypot_glazed", {
 		storebox = 1,
 		totable = 1,
 		scaling_time = 200,
-		ceramic = 3
+		ceramic = 3,
+		storebox_sealed = 1,
 	},
 	paramtype = "light",
 	sounds = nodecore.sounds("nc_optics_glassy"),
