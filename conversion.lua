@@ -12,6 +12,7 @@ minetest.register_alias(modname.. ":pottery_waterpot_glazed",				modname.. ":pot
 minetest.register_alias(modname.. ":pottery_waterpot_clayware",				modname.. ":pottery_clayware_pot_water")
 minetest.register_alias(modname.. ":pottery_flowerpot_clayware",			modname.. ":pottery_clayware_flowerpot")
 minetest.register_alias(modname.. ":pottery_flowerpot_glazed_clayware",		modname.. ":pottery_clayware_flowerpot_glazed")
+minetest.register_alias(modname.. ":pottery_flowerpot_glazed",				modname.. ":pottery_clayware_flowerpot_glazed")
 minetest.register_alias(modname.. ":pottery_funguspot_clayware",			modname.. ":pottery_clayware_funguspot")
 minetest.register_alias(modname.. ":pottery_funguspot_glazed_clayware",		modname.. ":pottery_clayware_funguspot_glazed")
 
