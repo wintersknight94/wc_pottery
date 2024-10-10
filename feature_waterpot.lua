@@ -66,6 +66,7 @@ local function register_waterpot(material, desc, texture)
 			waterpot = 1,
 			scaling_time = 200,
 			stack_as_node = 1,
+			falling_node = 1,
 		},
 		stack_max = 1,
 		paramtype = "light",

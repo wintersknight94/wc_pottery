@@ -40,7 +40,8 @@ minetest.register_node(modname .. ":pottery_stoneware_pot", {
 		storebox = 1,
 		totable = 1,
 		scaling_time = 150,
-		ceramic = 2
+		ceramic = 2,
+		falling_node = 1,
 	},
 	paramtype = "light",
 	sounds = nodecore.sounds("nc_optics_glassy"),
@@ -62,7 +63,8 @@ minetest.register_node(modname .. ":pottery_stoneware_pot_glazed", {
 		storebox = 1,
 		totable = 1,
 		scaling_time = 200,
-		ceramic = 3
+		ceramic = 3,
+		falling_node = 1,
 	},
 	paramtype = "light",
 	sounds = nodecore.sounds("nc_optics_glassy"),

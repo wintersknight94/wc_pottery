@@ -67,7 +67,8 @@ minetest.register_node(modname .. ":pottery_earthenware_pot", {
 		storebox = 1,
 		totable = 1,
 		scaling_time = 150,
-		earthenware = 2
+		earthenware = 2,
+		falling_node = 1,
 	},
 	paramtype = "light",
 	sounds = nodecore.sounds("nc_optics_glassy"),
@@ -89,7 +90,8 @@ minetest.register_node(modname .. ":pottery_earthenware_pot_glazed", {
 		storebox = 1,
 		totable = 1,
 		scaling_time = 200,
-		earthenware = 3
+		earthenware = 3,
+		falling_node = 1,
 	},
 	paramtype = "light",
 	sounds = nodecore.sounds("nc_optics_glassy"),

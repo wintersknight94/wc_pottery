@@ -38,7 +38,8 @@ local function register_flowerpot(material, desc, texture)
 			cracky = 2,
 			totable = 1,
 			flowerpot = 1,
-			scaling_time = 150
+			scaling_time = 150,
+			falling_node = 1,
 		},
 		paramtype = "light",
 		sounds = nodecore.sounds("nc_optics_glassy")
@@ -59,6 +60,7 @@ local function register_flowerpot(material, desc, texture)
 			totable = 1,
 			flowerpot = 1,
 			scaling_time = 200,
+			falling_node = 1,
 		},
 		paramtype = "light",
 		sounds = nodecore.sounds("nc_optics_glassy")
